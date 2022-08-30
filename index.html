@@ -11,21 +11,25 @@
 
 </head>
 <body>
-	<header>
-		<h1>Gerador de Senha</h1>
+	<header class="bg-dark container p-3">
+		<h1 class="text-white">Gerador de Senha</h1>
 	</header>
 
-	<main class="container">
+	<main class="container ">
 		<span>Tamanho <span id="valor"></span> caracteres</span>
-		<input type="range" class="slide" id="slide" min="5" max="25" value="15">
+		<input type="range" class="slide form-range" id="slide" min="5" max="25" value="15">
 
-		<button id="button" class="btn" onclick="gerarSenha()">Gerar Senha</button>
+		<button id="button" 
+				class="btn btn-dark d-grid col-5 mx-auto mt-4" 
+				onclick="gerarSenha()">
+				Gerar Senha
+		</button>
+		
 	</main>
 
-	<div id="container-senha" class="container-senha hide" onclick="copiarSenha()">
-		<span class="title">Senha gerada</span>
+	<div id="container-senha" class="container-senha container" onclick="copiarSenha()">
+		<span class="title">Senha gerada:</span>
 		<span id="senha" class="senha"></span>
-		
 	</div>
 
 	<script src="script.js"></script>

@@ -1,0 +1,30 @@
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+main span{
+    text-align: center;
+    font-size: 2rem;
+}
+
+header{
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.container-senha{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.title{
+    font-size: 2rem;
+    
+}
+
+.senha{
+    font-size: 1.5rem;
+}
