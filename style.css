@@ -28,3 +28,8 @@ header{
 .senha{
     font-size: 1.5rem;
 }
+
+footer{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
